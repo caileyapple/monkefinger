@@ -1,1 +1,18 @@
+body {
+  font-family: Creepster;
+  margin: 40px;
+  background: #7B68EE;
+}
 
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  color: #003366;
+}
+
+section {
+  margin-bottom: 30px;
+}
