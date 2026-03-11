@@ -8,23 +8,12 @@ header {
   text-align: center;
   margin-bottom: 40px;
   font-family: 'Rubik Glitch';
-  font-size: 40px;
+  font-size: 60px;
   color: black;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6, h7, h8 {
   font-size: 30px;
-}
-
-section {
-  margin-bottom: 30px;
-}
-
-#Photos img {
-  max-width: 300px;
-  height: auto;
-  border-radius: 6px;
-  margin: 10px;
 }
 
 .tabs {
