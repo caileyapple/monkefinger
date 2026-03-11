@@ -1,5 +1,5 @@
 body {
-  font-family: Sans Serif;
+  font-family: Georgia;
   margin: 40px;
   background: #AAFF00;
 }
@@ -12,6 +12,10 @@ header {
 
 h1 {
   color: black;
+}
+
+h2, h3, h4, h5 {
+  font-size: 30px;
 }
 
 section {
