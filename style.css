@@ -1,12 +1,13 @@
 body {
   font-family: Creepster;
   margin: 40px;
-  background: #7B68EE;
+  background: #AAFF00;
 }
 
 header {
   text-align: center;
   margin-bottom: 40px;
+  color: #E4D00A;
 }
 
 h1 {
