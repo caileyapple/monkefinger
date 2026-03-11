@@ -24,7 +24,14 @@ section {
   max-width: 300px;
   height: auto;
   border-radius: 6px;
-  margin-top: 10px;
+  margin: 10px;
+}
+
+#Photos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .tabs {
