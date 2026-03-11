@@ -20,8 +20,8 @@ section {
   margin-bottom: 30px;
 }
 
-.Photos img {
-  max-width: 400px;
+#Photos img {
+  max-width: 300px;
   height: auto;
   border-radius: 6px;
   margin-top: 10px;
