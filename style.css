@@ -8,8 +8,15 @@ header {
   text-align: center;
   margin-bottom: 40px;
   font-family: 'Rubik Glitch';
-  font-size: 60px;
   color: black;
+}
+
+header h1 {
+  font-size: 60px;
+}
+
+header p {
+  font-size: 20px;
 }
 
 .tabs {
