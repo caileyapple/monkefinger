@@ -1,20 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Monke Finger</title>
-<link rel="stylesheet" href="style.css">
+  <title>Monke Finger!</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
+<script src="script.js"></script>
+  
 <body>
 
-  <header>
-    <h1>Monke Finger</h1>
-    <p>The Greatest Band in the World!!!!!!!!!!!!!!!!</p>
-  </header>
+<header>
+  <h1>Monke Finger</h1>
+  <p>The Greatest Band in the World!!!!!!!</p>
+</header>
 
-  <section>
-    <h2>About Monke Finger</h2>
-    <p>We are a sick band that does sick shit. That's all you need to know. #swag</p>
-  </section>
+<div class="tabs">
+<button onclick="showTab('Music')">About Me</button>
+<button onclick="showTab('Photos')">Projects</button>
+<button onclick="showTab('Contact')">Contact</button>
+</div>
+
+<section id="Music" class="tab-content active">
+<h2>What We Do...</h2>
+<p>This is where I would put some stuff.</p>
+<a href="https://open.spotify.com/artist/6QvqZ9ia7luuUVk5e51uE6?si=jNUthCJRQJ6Q2UkWAUMaeA">Listen to us on spotify!</a>
+</section>
+
+<section id="Photos" class="tab-content">
+  <h3>Band Photos</h3>
+</section>
+
+<section id="Contact" class="tab-content">
+  <h4>Contact</h4>
+  <p>Email:/monkefinger@gmail.com </p>
+</section>
+
 </body>
 </html>
