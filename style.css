@@ -20,18 +20,18 @@ section {
   margin-bottom: 30px;
 }
 
+#Photos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 #Photos img {
   max-width: 300px;
   height: auto;
   border-radius: 6px;
   margin: 10px;
-}
-
-#Photos img{
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
 }
 
 .tabs {
