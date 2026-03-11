@@ -17,3 +17,16 @@ h1 {
 section {
   margin-bottom: 30px;
 }
+
+.tabs button{
+  padding:10px;
+  cursor:pointer;
+}
+
+.tab-content{
+  display:none;
+}
+
+.tab-content.active{
+  display:block;
+}
