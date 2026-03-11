@@ -5,3 +5,7 @@ function showTab(tabId) {
   });
   document.getElementById(tabId).classList.add("active"); // show selected
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  // your showTab function here
+});
