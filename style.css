@@ -27,7 +27,7 @@ section {
   margin: 10px;
 }
 
-#Photos {
+#Photos img{
   display: flex;
   justify-content: center;
   gap: 20px;
