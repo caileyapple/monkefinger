@@ -22,8 +22,16 @@ header p {
 }
 
 #Home img {
+  max-width: 200px;
+  height: auto;
+}
+
+#Home img {
   width: 150px;
   height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
 }
 
 .tabs {
