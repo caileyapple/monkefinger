@@ -21,6 +21,11 @@ header p {
   opacity: 0.8;
 }
 
+#Home img {
+  max-width: 100px;
+  height: 100px;
+}
+
 .tabs {
   display: flex;
   justify-content: center;
