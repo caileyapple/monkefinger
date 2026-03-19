@@ -38,3 +38,6 @@ window.addEventListener("load", () => {
 document.getElementById("homeBtn").addEventListener("click", () => {
   dropBananas(25);
 });
+
+setTimeout(() => dropBananas(10), 200);
+setTimeout(() => dropBananas(10), 400);
