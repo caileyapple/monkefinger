@@ -1,9 +1,14 @@
 function showTab(tabId) {
   let tabs = document.querySelectorAll(".tab-content");
+
   tabs.forEach(tab => {
-    tab.classList.remove("active");  // hide all
+    tab.classList.remove("active");
   });
-  document.getElementById(tabId).classList.add("active"); // show selected
+
+  document.getElementById(tabId).classList.add("active");
+
+  // 🍌 ADD THIS LINE
+  dropBananas(15);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
