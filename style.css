@@ -22,7 +22,10 @@ header p {
 }
 
 #Home img {
-  width: 150px !important;
+  width: 180px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
 }
 
 .tabs {
