@@ -40,8 +40,8 @@ window.addEventListener("load", () => {
   dropBananas(25);
 });
 
-document.getElementById("homeBtn").addEventListener("click", () => {
-  dropBananas(25);
+document.addEventListener("click", () => {
+  dropBananas(5);
 });
 
 setTimeout(() => dropBananas(10), 200);
